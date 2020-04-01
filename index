@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Puzzle</title>
-    <link rel="stylesheet" type="text/css" href="_puzzle.css">
-    <script type="text/javascript" src="_puzzle.js"></script>
+    <link rel="stylesheet" type="text/css" href="puzzle.css">
+    <script type="text/javascript" src="puzzle.js"></script>
 </head>
 <body>
     <h1 id='head'>

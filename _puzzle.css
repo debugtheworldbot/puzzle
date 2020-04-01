@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+#head{
+
+    background-color: rgb(125, 240, 125);
+    color: #4e4a3d;
+    text-shadow: 1px 1px 2px #ffe171;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px ;
+    text-align: center;
+}
+#strike{
+
+  
+    color: #4e4a3d;
+    text-shadow: 1px 1px 2px #ffe171;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px ;
+    text-align: center;
+    float: right;
+}
+#container{
+    position: relative;
+    width: 620px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 1px;
+}
+#game{
+    position: absolute;
+    width: 450px  ;
+    height: 450px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #ffe171;
+    box-shadow: 0 0 10px #ffe171;
+}
+/* 150*3=450px 即游戏区的div大小*/
+#game div{
+    position: absolute;
+    width: 149px  ;
+    height: 149px;
+    background-color: #20a6fa;
+    box-shadow: 1px 1px 2px #777;
+    color: wheat;
+    text-align: center;
+    font-size: 150px;
+    line-height: 150px;
+    cursor: pointer;
+/*!!*chrome firefox opera*/
+    -webkit-transition: 0.2s ease-out ;
+	-moz-transition:  0.2s ease-out ;
+	-o-transition:  0.2s ease-out;
+    transition:  0.2s ease-out;
+}
+/*小方块大小，改变位置时不会影响其他元素的位置
+/*有1px的边框阴影*/
+#game div:hover{
+    color:rgba(231, 48, 231, 0.692);
+}
+#control{
+    width: 150px  ;
+    height: 450px;
+    /*!!!*/
+    float: right;
+}
+#control rowspan{
+    height: 50px;
+    font-size: 20px;
+    color:rgb(65, 62, 62);
+    margin-top:30px;
+}
+#start{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 50px;
+    width: 100px  ;
+    height: 50px;
+    background-color: pink;
+    color: #ffe171;
+    text-shadow: 1px 1px 2px #ffe171;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #4c98f5;
+    text-align: center;
+    cursor: pointer;
+}
+#window{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 50px;
+    width: 100px  ;
+    height: 50px;
+    background-color: pink;
+    color: #ffe171;
+    text-shadow: 1px 1px 2px #ffe171;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #4c98f5;
+    text-align: center;
+    cursor: pointer;
+}
+#reset{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    color: #ffe171;
+    text-shadow: 1px 1px 2px #ffe171;/*字体阴影*/
+    border-radius: 25px;/*圆角属性*/
+    box-shadow: 2px 2px 5px #4c98f5;/*盒子阴影*/
+    text-align: center;/*文字居中*/
+    cursor: pointer;
+}
+#d1{
+    left: 0px;
+}
+#d2{
+    left: 150px;
+}
+#d3{
+    left: 300px;
+}
+#d4{
+    top: 150px;
+}
+#d5{
+    top: 150px;
+    left: 150px;
+}
+#d6{
+    top: 150px;
+    left: 300px;
+}
+#d7{
+    top: 300px;
+}
+#d8{
+    left: 150px;
+    top: 300px;
+}
